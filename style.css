@@ -77,6 +77,10 @@ h4{
     width: 400px;
     max-width: 100%;
     position: relative;
+	 transition: transform .6s;
+}
+.newsletter:hover{
+    transform: scale(1.1);
 }
 .newsletter form input:first-child 
 {
